@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc5LoginSampleApp", "Mvc5LoginSampleApp\Mvc5LoginSampleApp.csproj", "{8F3152C5-5158-4040-A47E-C0240399CA0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F3152C5-5158-4040-A47E-C0240399CA0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F3152C5-5158-4040-A47E-C0240399CA0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F3152C5-5158-4040-A47E-C0240399CA0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F3152C5-5158-4040-A47E-C0240399CA0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9926FFD6-6A29-4947-939E-F8335F019BD4}
+	EndGlobalSection
+EndGlobal
