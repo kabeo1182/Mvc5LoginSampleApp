@@ -17,7 +17,7 @@ namespace mdlDatabase
             try
             {
                 // 接続文字列を作成して接続を開始する
-                DB_Connection.ConnectionString = "data source = " + CONSTOpn.cstrDB_Sorce + ";" +
+                DB_Connection.ConnectionString = "data source = " + CONSTOpn.cstrDB_Sorce + 1 + ";" +
                                           "initial catalog = " + CONSTOpn.cstrDB_Name + ";" +
                                           "user id         = " + CONSTOpn.cstrDB_User + ";" +
                                           "password        = " + CONSTOpn.cstrDB_Pass + ";" +
@@ -71,7 +71,7 @@ namespace mdlDatabase
         public bool DB_SqlReader(string strSql, ref SqlDataReader sqlRdr)
         {
             SqlCommand sqlCmn = new SqlCommand();
-
+            sqlCmn.CommandTimeout = 1000;
             try
             {
                 sqlCmn = new SqlCommand(strSql, DB_Connection);
