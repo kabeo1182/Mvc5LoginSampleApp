@@ -132,9 +132,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AuthModel.cs" />
-    <Compile Include="Modules\mdlCommon.cs" />
-    <Compile Include="Modules\mdlConst.cs" />
-    <Compile Include="Modules\mdlDatabase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
