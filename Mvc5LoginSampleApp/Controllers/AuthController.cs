@@ -1,10 +1,10 @@
-﻿using mdlDatabase;
-using Mvc5LoginSampleApp.Models;
+﻿using Mvc5LoginSampleApp.Models;
 using System;
 using System.Data.SqlClient;
 using System.Text;
 using System.Web.Mvc;
 using System.Web.Security;
+using SqlLibrary;
 
 namespace Mvc5LoginSampleApp.Controllers
 {
@@ -54,7 +54,7 @@ namespace Mvc5LoginSampleApp.Controllers
     
         private bool ChkLogin(string id ,string pass) 
         {
-            DatabaseOpn db = new DatabaseOpn();
+            DbOpn db = new DbOpn();
             SqlDataReader sqlRdr = null;
             StringBuilder strSql = new StringBuilder();
 
